@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Para Anjali</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- MÚSICA -->
+    <audio id="musica" loop>
+        <source src="musica.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- FONDO -->
+    <div id="fondo"></div>
+
+    <main>
+
+        <!-- PÁGINA 1 -->
+        <section id="pagina1" class="pagina activa">
+
+            <p class="numero">01 / 07</p>
+
+            <h1>Para Anjali</h1>
+
+            <div class="linea"></div>
+
+            <p class="texto">
+                Quería hacerte este pequeño regalo para recordar
+                algunos de los momentos que hemos compartido
+                y que, sinceramente, significan mucho para mí.
+            </p>
+
+            <p class="texto">
+                No necesitaba una ocasión especial para hacerlo,
+                simplemente me nació preparar algo diferente para ti.
+            </p>
+
+            <button onclick="siguiente(2)">
+                Comenzar
+            </button>
+
+        </section>
+
+
+        <!-- PÁGINA 2 -->
+        <section id="pagina2" class="pagina">
+
+            <p class="numero">02 / 07</p>
+
+            <h1>Las películas</h1>
+
+            <div class="linea"></div>
+
+            <p class="texto">
+                Entre tantas cosas que hemos hecho, hay algo que
+                siempre disfruté mucho: ver películas contigo
+            </p>
+
+            <p class="texto">
+                Cada película que veíamos me gustaba, con decirte
+                que gracias a ti terminé agarrándole el gusto a un
+                hobby que antes ni siquiera tenía XD
+            </p>
+
+            <p class="texto">
+                Y sinceramente Anjali no sé como lo hacías, pero
+                siempre terminaba con ganas de ver otra más lol
+            </p>
+
+            <button onclick="siguiente(3)">
+                Continuar
+            </button>
+
+        </section>
+
+
+        <!-- PÁGINA 3 -->
+        <section id="pagina3" class="pagina">
+
+            <p class="numero">03 / 07</p>
+
+            <h1>Algunos recuerdos</h1>
+
+            <div class="linea"></div>
+
+            <p class="texto">
+                Así que quise poner algunas de las películas que
+                hemos visto y que más me han gustado
+            </p>
+
+            <p class="texto">
+                Sé que faltan unas cuantas, pero obviamente no podía
+                ponerlas todas
+            </p>
+
+            <p class="texto">
+                Aun así, escogí algunas que me traen buenos recuerdos
+                de todo este tiempo.
+            </p>
+
+            <button onclick="siguiente(4)">
+                Continuar
+            </button>
+
+        </section>
+
+
+        <!-- PÁGINA 4 -->
+        <section id="pagina4" class="pagina">
+
+            <p class="numero">04 / 07</p>
+
+            <h1>La peli que vimos en el cine</h1>
+
+            <div class="linea"></div>
+
+            <p class="texto">
+                Como olvidarme de este día, salimos después
+                de un largo tiempo y me pareció muy chevere
+                todo, realmente disfruté todo de ese día.
+            </p>
+
+            <p class="texto">
+                Son momentos que quizás parecen simples,
+                pero que yo recuerdo con mucho cariño.
+            </p>
+
+            <p class="texto">
+                Creo que al final son esas pequeñas cosas las que
+                hacen que una amistad se vuelva especial y
+                espero que siga siendo así;)
+            </p>
+
+            <button onclick="siguiente(5)">
+                Continuar
+            </button>
+
+        </section>
+
+
+        <!-- PÁGINA 5 -->
+        <section id="pagina5" class="pagina">
+
+            <p class="numero">05 / 07</p>
+
+            <h1>Algo que quería decirte</h1>
+
+            <div class="linea"></div>
+
+            <p class="texto">
+                Y creo que nunca te lo he dicho así, pero realmente
+                aprecio mucho la gran persona que eres
+            </p>
+
+            <p class="texto">
+                Créeme que cuando te digo que conversábamos literal me hacías
+                olvidar sobre como me sentía, hay veces que ni ganas tengo
+                de hacer algo, me deprimo constantemente y eso me apena pero
+                ahí aparecías tú Anjali, eres una gran amiga y nunca me cansaré
+                de repetirlo.
+            </p>
+
+            <p class="texto">
+                Por eso decidí hacer esto, para agradecerte por todo lo que has 
+                significado para mí y por todas esas veces que lograste sacarme
+                una sonrisa cuando yo ni siquiera podía hacerlo.
+            </p>
+
+            <button onclick="siguiente(6)">
+                Continuar
+            </button>
+
+        </section>
+
+
+        <!-- PÁGINA 6 -->
+        <section id="pagina6" class="pagina">
+
+            <p class="numero">06 / 07</p>
+
+            <h1>Gracias por estar ahí</h1>
+
+            <div class="linea"></div>
+
+            <p class="texto">
+                Últimamente no me he estado sintiendo muy bien y,
+                aunque todavía tengo días así, muchas veces hablar
+                contigo me ayudaba a distraerme y olvidarme un poco de todo.
+            </p>
+
+            <p class="texto">
+                Siempre aprecié poder hablar contigo, contar cualquier
+                cosa y simplemente pasar un buen rato.
+            </p>
+
+            <p class="texto">
+                Quizás para ti eran conversaciones normales, pero para mí
+                muchas de ellas hicieron que algunos días fueran
+                un poquito mejores.
+            </p>
+
+            <p class="texto">
+                Así que simplemente quería agradecerte por eso.
+            </p>
+
+            <button onclick="siguiente(7)">
+                Última página
+            </button>
+
+        </section>
+
+
+        <!-- PÁGINA 7 -->
+        <section id="pagina7" class="pagina final">
+
+            <p class="numero">07 / 07</p>
+
+            <h1>Y bueno, por mi parte</h1>
+
+            <div class="linea"></div>
+
+            <p class="texto">
+                Solo quería hacerte algo diferente y dejarte
+                un pequeño recuerdo de algunos de los buenos
+                momentos que hemos compartido.
+            </p>
+
+            <p class="texto">
+                Gracias por todas las risas, las películas,
+                las conversaciones y por ser simplemente tú.
+            </p>
+
+            <p class="texto">
+                Espero que podamos seguir sumando muchos más
+                momentos y recuerdos de esos que algún día
+                vamos a recordar y nos van a dar risa.
+            </p>
+
+            <p class="texto">
+                Gracias por todo, Anjali.
+            </p>
+
+            <p class="destacado">
+                Te quiero mucho Anjali❤️
+            </p>
+
+            <!-- AUDIO FINAL -->
+            <div class="audio-final">
+
+                <p>Y un audio de mi parte:</p>
+
+                <audio controls>
+                    <source src="audio-final.ogg" type="audio/ogg">
+                    Tu navegador no soporta este audio.
+                </audio>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- BOTÓN DE MÚSICA -->
+    <button id="botonMusica" onclick="controlarMusica()">
+        🔊 Música
+    </button>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
